@@ -1,18 +1,40 @@
 /* Navigation */
-
-#home{
-
+#navbar{
+    flex-direction: column;
+}
+ul{
+    font-size: 13px;
+    font-weight: bold;
 }
 
+#home{
+    height: 770px;
+}
+#home p{
+    font-size: 13px;
+}
+
+#home::before{
+    height: 700px;
+}
 /* services section */
 #services{
-
     flex-direction: column;
+    align-items: center;
+}
+.clients-item {
+    align-items: center;
+}
+
+#services .box img {
+    width: 17rem;
 }
 
 
 /* client section */
-
+.clients{
+    flex-direction: column;
+}
 
 /* contact us section */
 
